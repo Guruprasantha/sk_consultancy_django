@@ -1,0 +1,50 @@
+{%block content%}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKCON</title>
+    <link rel="stylesheet" href="{% static 'home.css'%}">
+</head>
+<body class="pg">
+    <h1 class="sk">SK CONSULTANCY.</h1>
+    <h2 > ALL KIND OF ELECTRICAL AND PLUMBING WORKS  WITH NO DELAY AND ERRORS... </h2>
+    <h2><marquee width="1300">We are currently working on Erode,Coimbatore and Tirupur district only as soon we start in all over tamilnadu.. thanks for your support..</marquee></h2>
+    <h3 class="nav"><a class="c" href="{% url 'about' %}">ABOUT US</a></h3>
+    <h3 class="nav"><a class="c" href="{% url 'contact' %}">CONTACT </a></h3>
+    <p class="p">
+        Electrical systems power our homes, providing essential lighting and facilitating the operation of appliances.<br> 
+        Properly functioning plumbing ensures the distribution of clean water for daily use and the safe removal of<br> 
+        wastewater. Both electrical and plumbing systems are fundamental to the comfort, safety, and functionality<br>
+        of our living spaces, making their proper installation and maintenance vital for a functional and secure environment.</p>
+    
+
+  <div class="row">
+    <div >
+    <img src="https://th.bing.com/th?id=OIP.gXWJLJgwoHLHSel5mLmSZwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" height='73%' width='120%'>
+    <h2>For electrical works register here</h2>
+    <button class="styled" type="button" onclick="window.location.href=`{% url 'elec' %}`">REGISTER </button><br><br>
+     </div>
+  <div class="j">
+    <img src="https://th.bing.com/th/id/OIP.QsPZMCZdCfWftpK6_P4E5wHaEw?pid=ImgDet&rs=1">
+    <h2>For plumbing  works register here</h2>
+    <button class="styled" type="button" onclick="window.location.href=`{% url 'plum' %}`">REGISTER </button>
+  </div>
+</div>  
+<div>
+    <h3 class="w"> WHY US ? </h3>
+<ul>
+    <li class="k"> 30+ years of experience in electrical and plumbing services</li>
+    <li class="k"> 100% job satisfaction and guarantee ever</li>
+    <li class="k"> Best quality technicians and engineers service</li>
+    
+</ul>
+</div>
+
+
+
+</body>
+</html>
+{%endblock%}

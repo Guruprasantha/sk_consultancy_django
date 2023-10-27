@@ -1,0 +1,36 @@
+{%block content%}
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONCLUSION </title>
+    <link rel ="stylesheet" href="{% static 'final.css' %}">
+</head>
+<body>
+    <h1 class="sk">SK CONSULTING</h1>
+    <h1 class="sk"> THANKS FOR YOUR SUPPORT</h1>
+    <h1><marquee width="1300">We are currently working on Erode,Coimbatore and Tirupur district only as soon we start in all over tamilnadu.. thanks for your support..</marquee></h1>
+   
+    <p class="out">COMPLAINT REGARDS : {{work}}</p>
+    <p class="out">hi!  {{user}}, please check the address ..<br> 
+          NAME __________: {{user}} , <br>
+          DOOR NO ______: {{dno}} ,<br>
+          STREET NAME __: {{street}},<br>
+          CITY ___________: {{city}} , <br> 
+          DISTRICT _______: {{dis}}, <br> 
+          MOBILE NO _____: {{mob1}} ,<br> 
+          AL MOBILE NO __: {{mob2}} ,<br>
+          EMAIL ID _______: {{mail}} ,<br><br>
+          THE ISSUE IS __: {{issue}}
+            </p>
+            <P class="out">
+            REGISTRED SUCCESSFULLY.. <br><br>
+                Our customer care executive will call you with in 4 hrs and your issue will be rectify with in 72 hrs with 100% satisfaction with zero error ...<br>thanks for choosing us
+            </P>
+            <button  type="button" onclick="window.location.href=`{% url 'home' %}`">BACK TO HOME PAGE </button>
+</body>
+
+</html>
+{%endblock%}

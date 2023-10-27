@@ -1,0 +1,74 @@
+.pg{
+    background-image: url('https://thumbs.dreamstime.com/b/different-electrician-s-supplies-yellow-background-background-professional-electrician-tools-space-text-different-198553961.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sk{
+    text-align:left;
+    background-color: rgba(10, 65, 87, 0.719);
+    font-size: 500%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(228, 231, 235);
+}
+.nav{
+   display: inline;
+   text-align:center;
+   float:right;
+   padding-right: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 200%;
+   color:rgb(214, 174, 128)
+}
+.c{
+    color:aliceblue;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(9, 21, 59);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgb(13, 114, 106);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+.p{
+   font-size: larger;
+  }
+.w{
+    display: block;
+    padding: 1%;
+    background-color: #143855;
+    color:#fff
+}
+.k{
+
+    font-size: 150%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(21, 22, 22);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+  }
+.j{
+    padding-left: 10%;
+}
+  

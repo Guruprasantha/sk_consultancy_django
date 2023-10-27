@@ -1,0 +1,53 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/a3/70/ae/a370ae4a9e80e4c00d44725569c2f5c7.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    image-resolution: 100%;
+
+}
+
+.box{
+    width: 300px;
+    padding: 50px;
+    position:absolute;
+    left: 80%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    text-align: left;  
+}
+::placeholder {
+    color: rgb(15, 15, 15);
+    opacity: 1;
+    font-size: large;
+  }
+.box input[type="text"],
+.box input[type="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 10px;
+    width: 220px;
+    background-color: aliceblue;
+}
+
+.sk{
+    text-align:center;
+    font-size: 250%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(228, 231, 235);
+}
+button{
+    border: none;
+    background-color:rgb(153, 213, 228);
+    padding: 5%;
+}
+.box input[type="submit"]{
+    border: none;
+    background-color:rgb(153, 213, 228);
+    padding: 5%;
+}
+
+
+

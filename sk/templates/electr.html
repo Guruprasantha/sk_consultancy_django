@@ -1,0 +1,47 @@
+{%block content%}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRICAL</title>
+    <link rel ="stylesheet" href="{% static 'electr.css' %}">
+</head>
+<body >
+    <h1 class="sk">SK CONSULTING </h1>
+    <h1 class="sk">ELECTRICAL WORK  REGISTRATION </h1>
+    <h1><marquee width="1300">We are currently working on Erode,Coimbatore and Tirupur district only as soon we start in all over tamilnadu.. thanks for your support..</marquee></h1>
+    <div>
+        <ul style="color: rgb(211, 217, 226); font-size:larger ">
+            <h2>OUR LEADING ELECTRICAL<br> SERVICES ARE</h2>
+            <li>Wiring/Controlling plans</li><br>
+            <li>Switchboard module tables</li><br>
+            <li>Electrical conduiting layouts</li><br>
+            <li>DB electrical SLD (Single Line Diagrams)</li><br>
+            <li>Panel SLD</li><br>
+            <li>Electrical automation</li><br>
+            <li>Electrical wall elevations</li><br>
+            <li>Product recommendations</li>
+        </ul>
+    </div>    
+
+    <form class="box" action="{% url 'ele' %}" method="POST" >
+        {%csrf_token%}
+        <input type="text" placeholder=" NAME HERE:  "  name="name">
+        <input type="text" placeholder=" D/NO : " name="d_no">
+        <input type="text" placeholder=" STREET NAME: " name="s_name">
+        <input type="text" placeholder=" CITY: " name="city">
+        <input type="text" placeholder=" DISTRICT: "name="district">
+        <input type="text" placeholder=" MOBILE NO : " name="mob1">
+        <input type="text" placeholder=" ALTERNATE MOBILE NO: " name="mob2">
+        <input type="email" placeholder=" EMAIL ID: " name="email">
+        <input type="text" placeholder=" ISSUE : " name="issue">
+        <input type="submit" name="submit">
+        <button  type="button" onclick="window.location.href=`{% url 'home' %}`">BACK TO HOME PAGE </button>
+    </form>
+
+</body>
+
+</html>
+{%endblock%}
